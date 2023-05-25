@@ -1,6 +1,6 @@
 import queue
 
-MAX = 20
+MAX = 5
 
 print("キュー")
 q = queue.Queue()
