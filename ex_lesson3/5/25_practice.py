@@ -8,5 +8,6 @@ print(node)
 q = queue.Queue()
 for i in range(MAX):
     print(node[i], end="→")
-node.reverse()
-print(node, end="→")
+print('\n')
+for i in reversed(node):
+    print(i, end="→")
